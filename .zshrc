@@ -9,7 +9,5 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon ssh dir dir_writable)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 DISABLE_UPDATE_PROMPT=true
 
-
-
 source ~/.profile 
-[ -f ~/work/work_variables ] && source ~/.work/variables
+[ -f ~/.work/variables ] && source ~/.work/variables
