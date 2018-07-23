@@ -10,4 +10,3 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 DISABLE_UPDATE_PROMPT=true
 
 source ~/.profile 
-[ -f ~/.work/variables ] && source ~/.work/variables
