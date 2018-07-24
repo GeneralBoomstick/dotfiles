@@ -14,6 +14,8 @@ alias music="~/.scripts/GetMusic.zsh"
 alias t="todo.sh"
 alias edittodo='vim ~/.todo/todo.txt'
 
+# Homebrew Location
+alias brewdir="cd /usr/local/Cellar"
 
 # requires NVM install
 export NVM_DIR="$HOME/.nvm"
