@@ -1,0 +1,30 @@
+{
+    "terminal.external.osxExec": "ITerm.app",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/.etmp": true,
+        "**/node_modules": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map": {
+            "when": "$(basename)"
+        }
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "emmet.includeLanguages": {
+        "typescript": "typescript"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
