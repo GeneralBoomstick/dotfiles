@@ -10,3 +10,9 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 DISABLE_UPDATE_PROMPT=true
 
 source ~/.profile 
+
+###-tns-completion-start-###
+if [ -f /Users/a0c01ae/.tnsrc ]; then 
+    source /Users/a0c01ae/.tnsrc 
+fi
+###-tns-completion-end-###
